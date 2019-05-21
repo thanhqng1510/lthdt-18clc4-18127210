@@ -6,3 +6,4 @@
 # List of projects:
 
 1. LineV1.
+2. RectangleV1.
