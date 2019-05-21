@@ -7,3 +7,4 @@
 
 1. LineV1.
 2. RectangleV1.
+3. TriangleV1.
