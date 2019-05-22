@@ -10,3 +10,4 @@
 3. TriangleV1.
 4. CircleV1.
 5. FractionV1.
+6. StudentV1.
