@@ -3,6 +3,9 @@
 Student::Student(const std::string& first_name, const std::string& middle_name, const std::string& last_name):
 m_first_name(first_name), m_middle_name(middle_name), m_last_name(last_name) {}
 
+Student(const Student& other):
+m_first_name(other.m_first_name), m_middle_name(other.m_middle_name), m_last_name(other.m_last_name) {}
+
 Student::~Student() {}
 
 std::string Student::GetFirstName() const {

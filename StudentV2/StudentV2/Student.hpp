@@ -8,6 +8,7 @@ class Student {
 public:
     Student() = default;
     Student(const std::string& first_name, const std::string& middle_name, const std::string& last_name);
+    Student(const Student& other);
     ~Student();
 public:
     std::string GetFirstName() const;

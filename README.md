@@ -11,3 +11,7 @@
 4. CircleV1.
 5. FractionV1.
 6. StudentV1.
+7. RectangleV2.
+8. TriangleV2.
+9. StudentV2.
+10. DynamicArray.
