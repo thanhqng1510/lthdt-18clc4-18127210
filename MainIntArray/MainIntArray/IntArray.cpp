@@ -38,7 +38,7 @@ std::ostream& operator << (std::ostream& stream, const IntArray& a) {
 
 IntArray::IntArray(): m_cap(0), m_len(0), m_arr(nullptr) {}
 
-IntArray::IntArray(const unsigned int& cap): m_cap(cap), m_len(0), m_arr(new int [cap]) {}
+IntArray::IntArray(const unsigned short& cap): m_cap(cap), m_len(0), m_arr(new int [cap]) {}
 
 IntArray::IntArray(const int* const a, const unsigned int& len): m_cap(len), m_len(len), m_arr(new int [len]) {
     for (int i = 0; i < len; ++i)
@@ -56,12 +56,5 @@ IntArray::~IntArray() {
 }
 
 IntArray::operator int () const {
-    if (m_len == 0)
-        return 0;
-    
-    int sum = 0;
-    for (int i = 0; i < m_len; ++i)
-        sum += m_arr[i];
-        
-    return sum / m_len;
+    return m_len;
 }

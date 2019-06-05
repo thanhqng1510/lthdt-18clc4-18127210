@@ -14,7 +14,7 @@ public:
     friend std::ostream& operator << (std::ostream& stream, const IntArray& a);
 public:
     IntArray();
-    IntArray(const unsigned int& cap);
+    IntArray(const unsigned short& cap);
     IntArray(const int* const a, const unsigned int& len);
     IntArray(const IntArray& other);
     ~IntArray();
