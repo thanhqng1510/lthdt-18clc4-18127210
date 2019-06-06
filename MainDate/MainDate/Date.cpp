@@ -120,6 +120,42 @@ Date operator - (Date d, const int& day) {
     return d;
 }
 
+bool Date::operator > (const Date& other) const {
+    if (m_year > other.m_year)
+        return true;
+    else if (m_year == other.m_year) {
+        return (m_abs_day > other.m_abs_day);
+    }
+    else
+        return false;
+}
+
+bool Date::operator < (const Date& other) const {
+    if (m_year < other.m_year)
+        return true;
+    else if (m_year == other.m_year) {
+        return (m_abs_day < other.m_abs_day);
+    }
+    else
+        return false;
+}
+
+bool Date::operator == (const Date& other) const {
+    return (m_year == other.m_year && m_abs_day == other.m_abs_day);
+}
+
+bool Date::operator >= (const Date& other) const {
+    return (*this > other || *this == other);
+}
+
+bool Date::operator <= (const Date& other) const {
+    return (*this < other || *this == other);
+}
+
+bool Date::operator != (const Date& other) const {
+    return !(*this == other);
+}
+
 std::ostream& operator << (std::ostream& stream, const Date& d) {
     return stream << d.m_day << "/" << d.m_mon << "/" << d.m_year;
 }

@@ -25,12 +25,12 @@ public:
     Date& operator -= (const int& day);
     friend Date operator + (Date d, const int& day);
     friend Date operator - (Date d, const int& day);
-    inline bool operator > (const Date& other) const { return m_abs_day > other.m_abs_day; }
-    inline bool operator < (const Date& other) const { return m_abs_day < other.m_abs_day; }
-    inline bool operator == (const Date& other) const { return m_abs_day == other.m_abs_day; }
-    inline bool operator >= (const Date& other) const { return (*this > other || *this == other); }
-    inline bool operator <= (const Date& other) const { return (*this < other || *this == other); }
-    inline bool operator != (const Date& other) const { return !(*this == other); }
+    bool operator > (const Date& other) const;
+    bool operator < (const Date& other) const;
+    bool operator == (const Date& other) const;
+    bool operator >= (const Date& other) const;
+    bool operator <= (const Date& other) const;
+    bool operator != (const Date& other) const;
 public:
     friend std::ostream& operator << (std::ostream& stream, const Date& d);
     friend std::istream& operator >> (std::istream& stream, Date& d);
