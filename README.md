@@ -23,3 +23,4 @@
 16. TriangleW05.
 17. CircleW05.
 18. FractionW05.
+19. StudentW05.

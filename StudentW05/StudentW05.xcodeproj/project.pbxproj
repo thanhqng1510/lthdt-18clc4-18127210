@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A49130422AFA1B200933C7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A49130322AFA1B200933C7D /* main.cpp */; };
+		2A49130422AFA1B200933C7D /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A49130322AFA1B200933C7D /* Main.cpp */; };
+		2A49130C22AFA24400933C7D /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A49130A22AFA24400933C7D /* Student.cpp */; };
+		2A49130F22AFA28D00933C7D /* Tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A49130E22AFA28D00933C7D /* Tokenizer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		2A49130022AFA1B200933C7D /* StudentW05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudentW05; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A49130322AFA1B200933C7D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2A49130322AFA1B200933C7D /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		2A49130A22AFA24400933C7D /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		2A49130B22AFA24400933C7D /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		2A49130D22AFA28D00933C7D /* Tokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tokenizer.hpp; sourceTree = "<group>"; };
+		2A49130E22AFA28D00933C7D /* Tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tokenizer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		2A49130222AFA1B200933C7D /* StudentW05 */ = {
 			isa = PBXGroup;
 			children = (
-				2A49130322AFA1B200933C7D /* main.cpp */,
+				2A49130322AFA1B200933C7D /* Main.cpp */,
+				2A49130A22AFA24400933C7D /* Student.cpp */,
+				2A49130B22AFA24400933C7D /* Student.hpp */,
+				2A49130E22AFA28D00933C7D /* Tokenizer.cpp */,
+				2A49130D22AFA28D00933C7D /* Tokenizer.hpp */,
 			);
 			path = StudentW05;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A49130422AFA1B200933C7D /* main.cpp in Sources */,
+				2A49130F22AFA28D00933C7D /* Tokenizer.cpp in Sources */,
+				2A49130422AFA1B200933C7D /* Main.cpp in Sources */,
+				2A49130C22AFA24400933C7D /* Student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
