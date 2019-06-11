@@ -6,7 +6,7 @@ std::unique_ptr<Line> Line::s_Parse(const std::string& string) {
 }
 
 std::unique_ptr<Line> Line::s_TryParse(const std::string& string) {
-    if (!std::regex_match(string, std::regex("([(][0-9]+(\.[0-9]+)?[,][0-9]+(\.[0-9]+)?[)][;][(][0-9]+(\.[0-9]+)?[,][0-9]+(\.[0-9]+)?[)])")))
+    if (!std::regex_match(string, std::regex("([(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)];[(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)])")))
         throw "Line::s_TryParse: Invalid format";
     
     return Line::s_Parse(string);

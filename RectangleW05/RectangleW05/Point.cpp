@@ -1,5 +1,4 @@
 #include "Point.hpp"
-#include <iostream>
 
 std::unique_ptr<Point> Point::s_Parse(const std::string& string) {
     std::vector<std::string> str_vec = Tokenizer::s_Parse(string, ",");
@@ -29,16 +28,6 @@ Point::Point(const Point& other): m_x(other.m_x), m_y(other.m_y) {
 
 Point::~Point() {
     --s_instance_count;
-}
-
-Point& Point::GetX(const float& x) {
-    m_x = x;
-    return *this;
-}
-
-Point& Point::GetY(const float& y) {
-    m_y = y;
-    return *this;
 }
 
 float Point::CalcDistanceTo(const Point& other) const {
