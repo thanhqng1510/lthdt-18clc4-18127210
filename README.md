@@ -20,3 +20,4 @@
 13. MainDate.
 14. LineW05.
 15. RectangleW05.
+16. TriangleW05.
