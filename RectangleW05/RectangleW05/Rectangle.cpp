@@ -6,7 +6,7 @@ std::unique_ptr<Rectangle> Rectangle::s_Parse(const std::string& string) {
 }
 std::unique_ptr<Rectangle> Rectangle::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)];[(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)])")))
-        throw "Rectangle::s_TryParse: Invalid format";
+        throw "Rectangle::s_TryParse: Invalid format, set to nullptr";
     
     return Rectangle::s_Parse(string);
 }

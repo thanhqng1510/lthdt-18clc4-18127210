@@ -22,3 +22,4 @@
 15. RectangleW05.
 16. TriangleW05.
 17. CircleW05.
+18. FractionW05.
