@@ -9,7 +9,7 @@ std::unique_ptr<Triangle> Triangle::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)];[(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)];[(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)])")))
         throw "Triangle::s_TryParse: Invalid format, set to nullptr";
     
-    return Triangle::s_Parse(string);
+    return s_Parse(string);
 }
 
 Triangle::Triangle(): m_a(Point()), m_b(Point()), m_c(Point()) {

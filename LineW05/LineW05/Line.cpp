@@ -9,7 +9,7 @@ std::unique_ptr<Line> Line::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)];[(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)])")))
         throw "Line::s_TryParse: Invalid format, set to nullptr";
     
-    return Line::s_Parse(string);
+    return s_Parse(string);
 }
 
 Line::Line(): m_start(Point()), m_end(Point()) {

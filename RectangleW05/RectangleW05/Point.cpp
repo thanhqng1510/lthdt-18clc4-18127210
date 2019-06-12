@@ -11,7 +11,7 @@ std::unique_ptr<Point> Point::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)])")))
         throw "Point::s_TryParse: Invalid format, set to nullptr";
     
-    return Point::s_Parse(string);
+    return s_Parse(string);
 }
 
 Point::Point(): m_x(0), m_y(0) {

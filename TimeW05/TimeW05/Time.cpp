@@ -9,7 +9,7 @@ std::unique_ptr<Time> Time::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2})")))
         throw "Time::s_TryParse: Invalid format, set to nullptr";
     
-    return Time::s_Parse(string);
+    return s_Parse(string);
 }
 
 Time::Time() {

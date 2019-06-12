@@ -9,7 +9,7 @@ std::unique_ptr<Fraction> Fraction::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("(-?[0-9]+/-?[1-9]+)")))
         throw "Fraction::s_TryParse: Invalid format, set to nullptr";
     
-    return Fraction::s_Parse(string);
+    return s_Parse(string);
 }
 
 Fraction::Fraction(): m_num(0), m_denom(1) {

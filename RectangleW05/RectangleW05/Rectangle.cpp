@@ -8,7 +8,7 @@ std::unique_ptr<Rectangle> Rectangle::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)];[(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)])")))
         throw "Rectangle::s_TryParse: Invalid format, set to nullptr";
     
-    return Rectangle::s_Parse(string);
+    return s_Parse(string);
 }
 
 Rectangle::Rectangle(): m_top_left(Point()), m_bottom_right(Point()) {

@@ -12,7 +12,7 @@ std::unique_ptr<DynamicArray> DynamicArray::s_TryParse(const std::string& string
     if (!std::regex_match(string, std::regex("(([1-9][0-9]*(;[1-9][0-9]*)*)?)")))
         throw "DynamicArray::s_TryParse: Invalid format, set to nullptr";
         
-    return DynamicArray::s_Parse(string);
+    return s_Parse(string);
 }
 
 DynamicArray::DynamicArray(): m_len(0), m_arr(nullptr) {

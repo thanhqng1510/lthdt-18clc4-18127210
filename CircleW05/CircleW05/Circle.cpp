@@ -9,7 +9,7 @@ std::unique_ptr<Circle> Circle::s_TryParse(const std::string& string) {
     if (!std::regex_match(string, std::regex("([(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)];[0-9]+(\.[0-9]+)?)")))
         throw "Circle::s_TryParse: Invalid format, set to nullptr";
     
-    return Circle::s_Parse(string);
+    return s_Parse(string);
 }
 
 Circle::Circle(): m_center(Point()), m_rad(0) {
