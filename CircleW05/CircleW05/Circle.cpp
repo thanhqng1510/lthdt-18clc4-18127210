@@ -6,7 +6,7 @@ std::unique_ptr<Circle> Circle::s_Parse(const std::string& string) {
 }
 
 std::unique_ptr<Circle> Circle::s_TryParse(const std::string& string) {
-    if (!std::regex_match(string, std::regex("([(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)];[0-9]+(\.[0-9]+)?)")))
+    if (!std::regex_match(string, std::regex("([(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)];[0-9]+(\.[0-9]+)?)")))
         throw "Circle::s_TryParse: Invalid format, set to nullptr";
     
     return Circle::s_Parse(string);
@@ -17,6 +17,9 @@ Circle::Circle(): m_center(Point()), m_rad(0) {
 }
 
 Circle::Circle(const Point& center, const float& rad): m_center(center), m_rad(rad) {
+    if (m_rad < 0)
+        throw "Circle::Circle: negative radius";
+    
     ++s_instance_count;
 }
 

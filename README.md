@@ -24,3 +24,5 @@
 17. CircleW05.
 18. FractionW05.
 19. StudentW05.
+20. DynamicArrayW05.
+21. TimeW05.

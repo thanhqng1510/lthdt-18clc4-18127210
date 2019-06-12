@@ -5,7 +5,7 @@
 int Fraction::s_instance_count = 0;
 
 int main() {
-    std::string fraction_str = "3/5";
+    std::string fraction_str = "-3/5";
     std::unique_ptr<Fraction> f;
     
     try {

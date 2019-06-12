@@ -8,7 +8,7 @@ std::unique_ptr<Point> Point::s_Parse(const std::string& string) {
 }
 
 std::unique_ptr<Point> Point::s_TryParse(const std::string& string) {
-    if (!std::regex_match(string, std::regex("([(][0-9]+(\.[0-9]+)?,[0-9]+(\.[0-9]+)?[)])")))
+    if (!std::regex_match(string, std::regex("([(]-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?[)])")))
         throw "Point::s_TryParse: Invalid format, set to nullptr";
     
     return Point::s_Parse(string);

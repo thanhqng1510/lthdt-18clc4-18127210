@@ -6,7 +6,7 @@ int Point::s_instance_count = 0;
 int Rectangle::s_instance_count = 0;
 
 int main() {
-    std::string rect_string = "(5.7,5.1);(6,6)";
+    std::string rect_string = "(5.7,-5.1);(6,6)";
     std::unique_ptr<Rectangle> r;
     
     try {

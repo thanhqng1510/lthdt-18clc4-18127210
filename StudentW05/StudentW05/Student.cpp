@@ -17,7 +17,7 @@ std::unique_ptr<Student> Student::s_Parse(const std::string& string) {
 }
 
 std::unique_ptr<Student> Student::s_TryParse(const std::string& string) {
-    if (!std::regex_match(string + " ", std::regex("([A-Z][a-z]+[ ]([A-Z][a-z]+[ ])+)")))
+    if (!std::regex_match(string, std::regex("([A-Z][a-z]+([ ][A-Z][a-z]+)+)")))
         throw "Student::s_TryParse: Invalid format, set to nullptr";
     
     return Student::s_Parse(string);

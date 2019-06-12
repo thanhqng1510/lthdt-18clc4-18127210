@@ -5,7 +5,7 @@
 int Student::s_instance_count = 0;
 
 int main() {
-    std::string student_str = "Nguyen Quy";
+    std::string student_str = "Nguyen Quy Thanh";
     std::unique_ptr<Student> s;
     
     try {

@@ -6,7 +6,7 @@ int Point::s_instance_count = 0;
 int Circle::s_instance_count = 0;
 
 int main() {
-    std::string circle_str = "(10.5,8);5.2";
+    std::string circle_str = "(10.5,-8);5.2";
     std::unique_ptr<Circle> c;
     
     try {

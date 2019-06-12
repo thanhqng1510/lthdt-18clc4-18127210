@@ -6,7 +6,7 @@ std::unique_ptr<Fraction> Fraction::s_Parse(const std::string& string) {
 }
 
 std::unique_ptr<Fraction> Fraction::s_TryParse(const std::string& string) {
-    if (!std::regex_match(string, std::regex("(-?[0-9]+/-?[1-9]+)")))
+    if (!std::regex_match(string, std::regex("([0-9]+/[1-9]+)")))
         throw "Fraction::s_TryParse: Invalid format, set to nullptr";
     
     return Fraction::s_Parse(string);
@@ -17,9 +17,6 @@ Fraction::Fraction(): m_num(0), m_denom(1) {
 }
 
 Fraction::Fraction(const int& num, const int& denom): m_num(num), m_denom(denom) {
-    if (m_denom == 0)
-        throw "Fraction::Fraction: divided by zero";
-    
     ++s_instance_count;
 }
 
