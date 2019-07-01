@@ -27,3 +27,5 @@
 20. DynamicArrayW05.
 21. TimeW05.
 22. DateW05.
+23. CompanyW06.
+24. UniversityW06.
