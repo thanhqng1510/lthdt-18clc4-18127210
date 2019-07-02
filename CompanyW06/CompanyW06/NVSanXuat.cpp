@@ -12,7 +12,3 @@ void NVSanXuat::Nhap() {
     std::cin >> m_so_san_pham;
     std::cin.ignore();
 }
-
-int32_t NVSanXuat::TienLuong() const {
-    return m_so_san_pham * 20000;
-}

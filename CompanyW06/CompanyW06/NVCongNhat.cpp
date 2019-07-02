@@ -12,8 +12,3 @@ void NVCongNhat::Nhap() {
     std::cin >> m_so_gio_lam;
     std::cin.ignore();
 }
-
-int32_t NVCongNhat::TienLuong() const {
-    return m_so_gio_lam * 30000;
-}
-

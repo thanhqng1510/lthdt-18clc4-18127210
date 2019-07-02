@@ -14,13 +14,3 @@ void NhanVien::Nhap() {
 void NhanVien::Xuat() const {
     std::cout << m_id << ". " << m_ho_ten << ", " << m_ngay_sinh << ", " << m_dia_chi << "\n";
 }
-
-std::ostream& operator << (std::ostream& stream, const NhanVien& nv) {
-    nv.Xuat();
-    return stream;
-}
-
-std::istream& operator >> (std::istream& stream, NhanVien& nv) {
-    nv.Nhap();
-    return stream;
-}

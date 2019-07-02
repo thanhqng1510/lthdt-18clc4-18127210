@@ -15,13 +15,23 @@ public:
     virtual ~GiaoVien() = default;
     
 public:
-    friend std::istream& operator >> (std::istream& stream, GiaoVien& gv);
-    friend std::ostream& operator << (std::ostream& stream, const GiaoVien& gv);
+    inline friend std::istream& operator >> (std::istream& stream, GiaoVien& gv) {
+        gv.Nhap();
+        return stream;
+    }
+    
+    inline friend std::ostream& operator << (std::ostream& stream, const GiaoVien& gv) {
+        gv.Xuat();
+        return stream;
+    }
     
 public:
     virtual void Nhap();
     virtual void Xuat() const;
-    virtual int32_t TienLuong() const;
+    
+    inline virtual int32_t TienLuong() const {
+        return m_he_so_luong * m_luong_co_ban - m_so_ngay_nghi * 100000;
+    }
 };
 
 #endif /* GiaoVien_hpp */

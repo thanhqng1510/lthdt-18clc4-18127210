@@ -14,7 +14,10 @@ public:
 public:
     void Nhap() override;
     void Xuat() const override;
-    int32_t TienLuong() const override;
+    
+    inline int32_t TienLuong() const override {
+        return GiaoVien::TienLuong() + 500000;
+    }
 };
 
 #endif /* GVChuNhiem_hpp */

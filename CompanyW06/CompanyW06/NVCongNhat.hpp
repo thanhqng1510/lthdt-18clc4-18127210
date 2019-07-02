@@ -10,7 +10,10 @@ protected:
 public:
     void Nhap() override;
     void Xuat() const override;
-    int32_t TienLuong() const override;
+    
+    inline int32_t TienLuong() const override {
+        return m_so_gio_lam * 30000;
+    }
 };
 
 #endif /* NVCongNhat_hpp */
