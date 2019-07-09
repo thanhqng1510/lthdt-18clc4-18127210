@@ -30,3 +30,6 @@
 23. CompanyW06.
 24. UniversityW06.
 25. LibraryW06.
+26. CarW07.
+27. TimeW07.
+28. AnimalW07.

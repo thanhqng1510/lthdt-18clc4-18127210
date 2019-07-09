@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A4912BC22AF690400933C7D /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4912B622AF690400933C7D /* Triangle.cpp */; };
-		2A4912BD22AF690400933C7D /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4912B722AF690400933C7D /* Point.cpp */; };
-		2A4912BE22AF690400933C7D /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4912B922AF690400933C7D /* Main.cpp */; };
-		2A4912BF22AF690400933C7D /* Tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4912BB22AF690400933C7D /* Tokenizer.cpp */; };
+		56734DA522D37932000DB3AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56734DA422D37932000DB3AA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2A4912A922AF68B400933C7D /* CopyFiles */ = {
+		56734D9F22D37932000DB3AA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +23,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2A4912AB22AF68B400933C7D /* TriangleW05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TriangleW05; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4912B522AF690400933C7D /* Tokenizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tokenizer.hpp; sourceTree = "<group>"; };
-		2A4912B622AF690400933C7D /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
-		2A4912B722AF690400933C7D /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
-		2A4912B822AF690400933C7D /* Triangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
-		2A4912B922AF690400933C7D /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
-		2A4912BA22AF690400933C7D /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
-		2A4912BB22AF690400933C7D /* Tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tokenizer.cpp; sourceTree = "<group>"; };
+		56734DA122D37932000DB3AA /* AnimalW07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimalW07; sourceTree = BUILT_PRODUCTS_DIR; };
+		56734DA422D37932000DB3AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		56734DAB22D399F3000DB3AA /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		56734DAC22D39AD2000DB3AA /* Cow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cow.hpp; sourceTree = "<group>"; };
+		56734DAD22D39DD0000DB3AA /* Goat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Goat.hpp; sourceTree = "<group>"; };
+		56734DAE22D39E2D000DB3AA /* Sheep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sheep.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A4912A822AF68B400933C7D /* Frameworks */ = {
+		56734D9E22D37932000DB3AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,103 +42,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A4912A222AF68B400933C7D = {
+		56734D9822D37932000DB3AA = {
 			isa = PBXGroup;
 			children = (
-				2A4912AD22AF68B400933C7D /* TriangleW05 */,
-				2A4912AC22AF68B400933C7D /* Products */,
+				56734DA322D37932000DB3AA /* AnimalW07 */,
+				56734DA222D37932000DB3AA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A4912AC22AF68B400933C7D /* Products */ = {
+		56734DA222D37932000DB3AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A4912AB22AF68B400933C7D /* TriangleW05 */,
+				56734DA122D37932000DB3AA /* AnimalW07 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A4912AD22AF68B400933C7D /* TriangleW05 */ = {
+		56734DA322D37932000DB3AA /* AnimalW07 */ = {
 			isa = PBXGroup;
 			children = (
-				2A4912B922AF690400933C7D /* Main.cpp */,
-				2A4912B622AF690400933C7D /* Triangle.cpp */,
-				2A4912B822AF690400933C7D /* Triangle.hpp */,
-				2A4912B722AF690400933C7D /* Point.cpp */,
-				2A4912BA22AF690400933C7D /* Point.hpp */,
-				2A4912BB22AF690400933C7D /* Tokenizer.cpp */,
-				2A4912B522AF690400933C7D /* Tokenizer.hpp */,
+				56734DA422D37932000DB3AA /* main.cpp */,
+				56734DAB22D399F3000DB3AA /* Animal.hpp */,
+				56734DAC22D39AD2000DB3AA /* Cow.hpp */,
+				56734DAE22D39E2D000DB3AA /* Sheep.h */,
+				56734DAD22D39DD0000DB3AA /* Goat.hpp */,
 			);
-			path = TriangleW05;
+			path = AnimalW07;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A4912AA22AF68B400933C7D /* TriangleW05 */ = {
+		56734DA022D37932000DB3AA /* AnimalW07 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A4912B222AF68B400933C7D /* Build configuration list for PBXNativeTarget "TriangleW05" */;
+			buildConfigurationList = 56734DA822D37932000DB3AA /* Build configuration list for PBXNativeTarget "AnimalW07" */;
 			buildPhases = (
-				2A4912A722AF68B400933C7D /* Sources */,
-				2A4912A822AF68B400933C7D /* Frameworks */,
-				2A4912A922AF68B400933C7D /* CopyFiles */,
+				56734D9D22D37932000DB3AA /* Sources */,
+				56734D9E22D37932000DB3AA /* Frameworks */,
+				56734D9F22D37932000DB3AA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TriangleW05;
-			productName = TriangleW05;
-			productReference = 2A4912AB22AF68B400933C7D /* TriangleW05 */;
+			name = AnimalW07;
+			productName = AnimalW07;
+			productReference = 56734DA122D37932000DB3AA /* AnimalW07 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A4912A322AF68B400933C7D /* Project object */ = {
+		56734D9922D37932000DB3AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = lily;
+				ORGANIZATIONNAME = ThanhNguyen;
 				TargetAttributes = {
-					2A4912AA22AF68B400933C7D = {
+					56734DA022D37932000DB3AA = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 2A4912A622AF68B400933C7D /* Build configuration list for PBXProject "TriangleW05" */;
+			buildConfigurationList = 56734D9C22D37932000DB3AA /* Build configuration list for PBXProject "AnimalW07" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2A4912A222AF68B400933C7D;
-			productRefGroup = 2A4912AC22AF68B400933C7D /* Products */;
+			mainGroup = 56734D9822D37932000DB3AA;
+			productRefGroup = 56734DA222D37932000DB3AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A4912AA22AF68B400933C7D /* TriangleW05 */,
+				56734DA022D37932000DB3AA /* AnimalW07 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A4912A722AF68B400933C7D /* Sources */ = {
+		56734D9D22D37932000DB3AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4912BE22AF690400933C7D /* Main.cpp in Sources */,
-				2A4912BF22AF690400933C7D /* Tokenizer.cpp in Sources */,
-				2A4912BD22AF690400933C7D /* Point.cpp in Sources */,
-				2A4912BC22AF690400933C7D /* Triangle.cpp in Sources */,
+				56734DA522D37932000DB3AA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2A4912B022AF68B400933C7D /* Debug */ = {
+		56734DA622D37932000DB3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,7 +184,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -202,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		2A4912B122AF68B400933C7D /* Release */ = {
+		56734DA722D37932000DB3AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,27 +237,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		2A4912B322AF68B400933C7D /* Debug */ = {
+		56734DA922D37932000DB3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2A4912B422AF68B400933C7D /* Release */ = {
+		56734DAA22D37932000DB3AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -275,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A4912A622AF68B400933C7D /* Build configuration list for PBXProject "TriangleW05" */ = {
+		56734D9C22D37932000DB3AA /* Build configuration list for PBXProject "AnimalW07" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4912B022AF68B400933C7D /* Debug */,
-				2A4912B122AF68B400933C7D /* Release */,
+				56734DA622D37932000DB3AA /* Debug */,
+				56734DA722D37932000DB3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A4912B222AF68B400933C7D /* Build configuration list for PBXNativeTarget "TriangleW05" */ = {
+		56734DA822D37932000DB3AA /* Build configuration list for PBXNativeTarget "AnimalW07" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4912B322AF68B400933C7D /* Debug */,
-				2A4912B422AF68B400933C7D /* Release */,
+				56734DA922D37932000DB3AA /* Debug */,
+				56734DAA22D37932000DB3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2A4912A322AF68B400933C7D /* Project object */;
+	rootObject = 56734D9922D37932000DB3AA /* Project object */;
 }
