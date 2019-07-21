@@ -1,0 +1,3 @@
+/home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/CMakeFiles/rebuild_cache.dir
+/home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/CMakeFiles/Output.dir
+/home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/CMakeFiles/edit_cache.dir

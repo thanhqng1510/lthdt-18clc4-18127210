@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Werror -std=c++17  -rdynamic CMakeFiles/Output.dir/src/AcademicGate.cpp.o CMakeFiles/Output.dir/src/BussinessGate.cpp.o CMakeFiles/Output.dir/src/Main.cpp.o CMakeFiles/Output.dir/src/PersonInterface.cpp.o CMakeFiles/Output.dir/src/PowerGate.cpp.o CMakeFiles/Output.dir/src/Prince.cpp.o  -o Output 
