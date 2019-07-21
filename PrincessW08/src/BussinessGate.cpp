@@ -7,9 +7,10 @@ BussinessGate::BussinessGate(int price, int stock)
 : m_price(price), m_stock(stock) {}
 
 void BussinessGate::Input() {
-    std::cout << "Input price: ";
+    std::cout << "Bussiness gate\n";
+    std::cout << "Enter price: ";
     std::cin >> m_price;
-    std::cout << "Input stock: ";
+    std::cout << "Enter stock: ";
     std::cin >> m_stock;
 }
 

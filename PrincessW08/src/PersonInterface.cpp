@@ -7,11 +7,11 @@ PersonInterface::PersonInterface(int money, int intel, int power)
 : m_money(money), m_intel(intel), m_power(power) {}
 
 void PersonInterface::Input() {
-    std::cout << "Input money: ";
+    std::cout << "Enter money: ";
     std::cin >> m_money;
-    std::cout << "Input intel: ";
+    std::cout << "Enter intel: ";
     std::cin >> m_intel;
-    std::cout << "Input power: ";
+    std::cout << "Enter power: ";
     std::cin >> m_power;
 }
 

@@ -8,5 +8,6 @@ public:
     Prince(int money, int intel, int strength);
 
 public:
+    void Input() override;
     void Output() const override;
 };

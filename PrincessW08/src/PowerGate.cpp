@@ -7,7 +7,8 @@ PowerGate::PowerGate(int power)
 : m_power(power) {}
 
 void PowerGate::Input() {
-    std::cout << "Input power: ";
+    std::cout << "Power gate\n";
+    std::cout << "Enter power: ";
     std::cin >> m_power;
 }
 

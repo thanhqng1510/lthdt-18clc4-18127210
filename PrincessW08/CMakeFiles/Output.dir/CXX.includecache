@@ -31,14 +31,18 @@ PersonInterface.hpp
 /home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/PersonInterface.hpp
 
 /home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/Main.cpp
-Prince.hpp
-/home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/Prince.hpp
+vector
+-
+GateInterface.hpp
+/home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/GateInterface.hpp
 BussinessGate.hpp
 /home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/BussinessGate.hpp
 AcademicGate.hpp
 /home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/AcademicGate.hpp
 PowerGate.hpp
 /home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/PowerGate.hpp
+Prince.hpp
+/home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/Prince.hpp
 
 /home/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/PrincessW08/src/PersonInterface.cpp
 PersonInterface.hpp

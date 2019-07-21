@@ -15,6 +15,6 @@ public:
     PersonInterface(int money, int intel, int strength);
 
 public:
-    void Input();
+    virtual void Input();
     virtual void Output() const;
 };

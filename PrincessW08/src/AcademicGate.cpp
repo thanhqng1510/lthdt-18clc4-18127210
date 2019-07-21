@@ -7,7 +7,8 @@ AcademicGate::AcademicGate(int intel)
 : m_intel(intel) {}
 
 void AcademicGate::Input() {
-    std::cout << "Input intel: ";
+    std::cout << "Academic gate\n";
+    std::cout << "Enter intel: ";
     std::cin >> m_intel;
 }
 
