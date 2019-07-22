@@ -6,6 +6,7 @@ void NVVanPhong::Nhap() {
     std::cin >> m_so_ngay_lam_viec;
     std::cout << "Nhap tro cap: ";
     std::cin >> m_tro_cap;
+    std::cin.ignore();
 }
 
 void NVVanPhong::Xuat() const {

@@ -1,16 +1,17 @@
+#include <iostream>
+
 #include "CongTy.hpp"
 
 CongTy::CongTy(int so_van_phong, int so_san_xuat, int so_quan_ly)
-    : m_so_van_phong(so_van_phong), m_so_san_xuat(so_san_xuat), m_so_quan_ly(so_quan_ly),
-      m_nhan_vien(new NhanVien*[so_van_phong + so_san_xuat + so_quan_ly]) {
-          int i = 0;
-          for (; i < so_van_phong; ++i)
-              m_nhan_vien[i] = new NVVanPhong;
-          for (; i < so_san_xuat; ++i)
-              m_nhan_vien[i] = new NVSanXuat;
-          for (; i < so_quan_ly; ++i)
-              m_nhan_vien[i] = new NVQuanLy;
-      }
+: m_so_van_phong(so_van_phong), m_so_san_xuat(so_san_xuat), m_so_quan_ly(so_quan_ly), m_nhan_vien(new NhanVien*[so_van_phong + so_san_xuat + so_quan_ly]) {
+    int i = 0;
+    for (; i < so_van_phong; ++i)
+        m_nhan_vien[i] = new NVVanPhong;
+    for (; i < so_van_phong + so_san_xuat; ++i)
+        m_nhan_vien[i] = new NVSanXuat;
+    for (; i < so_van_phong + so_san_xuat + so_quan_ly; ++i)
+        m_nhan_vien[i] = new NVQuanLy;
+}
 
 CongTy::~CongTy() {
     for (int i = 0; i < m_so_van_phong + m_so_san_xuat + m_so_quan_ly; ++i)
@@ -43,6 +44,24 @@ NhanVien* CongTy::NhanVienLuongCaoNhat() const {
             index = i;
         }
     return m_nhan_vien[index];
+}
+
+NhanVien* CongTy::TimNhanVienTheoID(const std::string& id) const {
+    for (int i = 0; i < m_so_van_phong + m_so_san_xuat + m_so_quan_ly; ++i)
+        if (m_nhan_vien[i]->m_id == id)
+            return m_nhan_vien[i];
+    
+    std::cout << "Khong tim thay\n";
+    return nullptr;
+}
+
+NhanVien* CongTy::TimNhanVienTheoTen(const std::string& ten) const {
+    for (int i = 0; i < m_so_van_phong + m_so_san_xuat + m_so_quan_ly; ++i)
+        if (m_nhan_vien[i]->m_ten == ten)
+            return m_nhan_vien[i];
+    
+    std::cout << "Khong tim thay\n";
+    return nullptr;
 }
 
 void CongTy::LietKeNVLuongThapHon3Tr() const {

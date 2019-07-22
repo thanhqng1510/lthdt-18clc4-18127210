@@ -12,7 +12,7 @@ private:
     int m_so_van_phong, m_so_san_xuat, m_so_quan_ly;
     
 public:
-    explicit CongTy(int so_van_phong, int so_san_xuat, int so_quan_ly);
+    CongTy(int so_van_phong, int so_san_xuat, int so_quan_ly);
     ~CongTy();
     
 public:
@@ -20,6 +20,8 @@ public:
     void Xuat() const;
     int TongTienLuong() const;
     NhanVien* NhanVienLuongCaoNhat() const;
+    NhanVien* TimNhanVienTheoID(const std::string& id) const;
+    NhanVien* TimNhanVienTheoTen(const std::string& ten) const;
     void LietKeNVLuongThapHon3Tr() const;
     
     inline float LuongTrungBinh() const {

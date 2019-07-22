@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.cpp
+iostream
+-
+CFolder.hpp
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.hpp
+
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.hpp
+vector
+-
+string
+-
+CItem.hpp
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.hpp
+
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.hpp
+string
+-
+

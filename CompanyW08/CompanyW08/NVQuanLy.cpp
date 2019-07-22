@@ -6,6 +6,7 @@ void NVQuanLy::Nhap() {
     std::cin >> m_he_so_chuc_vu;
     std::cout << "Nhap thuong: ";
     std::cin >> m_thuong;
+    std::cin.ignore();
 }
 
 void NVQuanLy::Xuat() const {

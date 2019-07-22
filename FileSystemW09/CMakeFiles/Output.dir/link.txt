@@ -1,0 +1,1 @@
+clang++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Output.dir/src/CFile.cpp.o CMakeFiles/Output.dir/src/CFolder.cpp.o CMakeFiles/Output.dir/src/CItem.cpp.o CMakeFiles/Output.dir/src/Main.cpp.o  -o Output 

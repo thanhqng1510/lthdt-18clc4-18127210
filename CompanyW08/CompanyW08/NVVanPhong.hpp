@@ -10,10 +10,8 @@ private:
 public:
     NVVanPhong() = default;
     
-    inline NVVanPhong(const std::string& ten, int nam_vao_lam, int luong_co_ban, int so_ngay_lam_viec, int tro_cap)
-        : NhanVien(ten, nam_vao_lam, luong_co_ban), m_so_ngay_lam_viec(so_ngay_lam_viec), m_tro_cap(tro_cap) {}
-    
-    ~NVVanPhong() override = default;
+    inline NVVanPhong(const std::string& id, const std::string& ten, int nam_vao_lam, int luong_co_ban, int thang_sinh, int so_ngay_lam_viec, int tro_cap)
+        : NhanVien(id, ten, nam_vao_lam, luong_co_ban, thang_sinh), m_so_ngay_lam_viec(so_ngay_lam_viec), m_tro_cap(tro_cap) {}
     
 public:
     void Nhap() override;
