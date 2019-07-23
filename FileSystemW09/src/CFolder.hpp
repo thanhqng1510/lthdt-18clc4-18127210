@@ -1,13 +1,13 @@
 #pragma once
 
-#include <vector>
+#include <unordered_map>
 #include <string>
 
 #include "CItem.hpp"
 
 class CFolder : public CItem {
 protected:
-    std::vector<CItem*> m_items;
+    std::unordered_map<std::string, CItem*> m_items;
 
 public:
     CFolder(const std::string& name);
