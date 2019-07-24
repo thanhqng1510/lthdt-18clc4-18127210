@@ -12,5 +12,8 @@ CMakeFiles/Output.dir/src/CFolder.cpp.o: src/CItem.hpp
 CMakeFiles/Output.dir/src/CItem.cpp.o: src/CItem.cpp
 CMakeFiles/Output.dir/src/CItem.cpp.o: src/CItem.hpp
 
+CMakeFiles/Output.dir/src/Main.cpp.o: src/CFile.hpp
+CMakeFiles/Output.dir/src/Main.cpp.o: src/CFolder.hpp
+CMakeFiles/Output.dir/src/Main.cpp.o: src/CItem.hpp
 CMakeFiles/Output.dir/src/Main.cpp.o: src/Main.cpp
 

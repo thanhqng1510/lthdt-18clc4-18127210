@@ -9,6 +9,9 @@ class CFolder : public CItem {
 protected:
     std::vector<CItem*> m_items;
 
+private:
+    void PrintHelper(bool print_hidden) const;
+
 public:
     CFolder(const std::string& name);
 

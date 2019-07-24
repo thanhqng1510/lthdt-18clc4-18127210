@@ -4,7 +4,6 @@
 
 class CFile : public CItem {
 public:
-    CFile(const std::string& name);
     CFile(const std::string& name, unsigned int size);
 
 public:
