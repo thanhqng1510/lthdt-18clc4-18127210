@@ -19,9 +19,9 @@ int main() {
     std::cout << "Noi dung o dia C ->\n";
     C.Print(false);     // print hidden items or not? 1/0
 
-    CItem* p = C.RemoveByName("System");
-    std::cout << "Noi dung o dia C sau khi xoa thu muc System ->\n";
-    C.Print(false);
+    // CItem* p = C.RemoveByName("System");
+    // std::cout << "Noi dung o dia C sau khi xoa thu muc System ->\n";
+    // C.Print(false);
 
     // CItem* p = C.FindByName("b.doc");
     // if (p)

@@ -10,7 +10,7 @@ void CFolder::PrintHelper(bool print_hidden) const {
 }
 
 CFolder::CFolder(const std::string& name)
-: CItem(name), m_items(0, 0) {}
+: CItem(name) {}
 
 void CFolder::Add(CItem* item) {
     if (m_items.find(item->m_name) != m_items.end())
