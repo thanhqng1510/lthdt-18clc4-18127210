@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Output.dir/src/CFolder.cpp.o"
   "CMakeFiles/Output.dir/src/CItem.cpp.o"
   "CMakeFiles/Output.dir/src/Main.cpp.o"
-  "Output.pdb"
   "Output"
+  "Output.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
