@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFile.hpp
-CItem.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.hpp
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.cpp
+iostream
+-
+CFolder.hpp
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.hpp
 
 /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.hpp
 vector
@@ -18,15 +20,13 @@ string
 CItem.hpp
 /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.hpp
 
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.cpp
+iostream
+-
+CItem.hpp
+/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.hpp
+
 /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.hpp
 string
 -
-
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Main.cpp
-iostream
--
-CFolder.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.hpp
-CFile.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFile.hpp
 

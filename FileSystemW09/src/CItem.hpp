@@ -16,4 +16,5 @@ public:
 public:
     virtual void Print(bool print_hidden) const;
     virtual void SetHidden(bool option, bool apply_all);
+    virtual CItem* FindByName(const std::string& name);
 };
