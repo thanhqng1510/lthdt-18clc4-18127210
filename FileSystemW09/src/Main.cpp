@@ -1,7 +1,8 @@
 #include <iostream>
 
-#include "CFolder.hpp"
-#include "CFile.hpp"
+#include "FileSystem/CFolder.hpp"
+#include "FileSystem/CFile.hpp"
+#include "Logger/Logger.hpp"
 
 int main() {
     CFolder C("C");

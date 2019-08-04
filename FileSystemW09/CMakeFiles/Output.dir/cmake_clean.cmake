@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Output.dir/src/CFile.cpp.o"
-  "CMakeFiles/Output.dir/src/CFolder.cpp.o"
-  "CMakeFiles/Output.dir/src/CItem.cpp.o"
+  "CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o"
+  "CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o"
+  "CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o"
+  "CMakeFiles/Output.dir/src/Logger/Logger.cpp.o"
   "CMakeFiles/Output.dir/src/Main.cpp.o"
   "Output"
   "Output.pdb"

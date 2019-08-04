@@ -57,48 +57,9 @@ include CMakeFiles/Output.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Output.dir/flags.make
 
-CMakeFiles/Output.dir/src/CFile.cpp.o: CMakeFiles/Output.dir/flags.make
-CMakeFiles/Output.dir/src/CFile.cpp.o: src/CFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Output.dir/src/CFile.cpp.o"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/CFile.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFile.cpp
-
-CMakeFiles/Output.dir/src/CFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/CFile.cpp.i"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFile.cpp > CMakeFiles/Output.dir/src/CFile.cpp.i
-
-CMakeFiles/Output.dir/src/CFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/CFile.cpp.s"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFile.cpp -o CMakeFiles/Output.dir/src/CFile.cpp.s
-
-CMakeFiles/Output.dir/src/CFolder.cpp.o: CMakeFiles/Output.dir/flags.make
-CMakeFiles/Output.dir/src/CFolder.cpp.o: src/CFolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Output.dir/src/CFolder.cpp.o"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/CFolder.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.cpp
-
-CMakeFiles/Output.dir/src/CFolder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/CFolder.cpp.i"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.cpp > CMakeFiles/Output.dir/src/CFolder.cpp.i
-
-CMakeFiles/Output.dir/src/CFolder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/CFolder.cpp.s"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.cpp -o CMakeFiles/Output.dir/src/CFolder.cpp.s
-
-CMakeFiles/Output.dir/src/CItem.cpp.o: CMakeFiles/Output.dir/flags.make
-CMakeFiles/Output.dir/src/CItem.cpp.o: src/CItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Output.dir/src/CItem.cpp.o"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/CItem.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.cpp
-
-CMakeFiles/Output.dir/src/CItem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/CItem.cpp.i"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.cpp > CMakeFiles/Output.dir/src/CItem.cpp.i
-
-CMakeFiles/Output.dir/src/CItem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/CItem.cpp.s"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.cpp -o CMakeFiles/Output.dir/src/CItem.cpp.s
-
 CMakeFiles/Output.dir/src/Main.cpp.o: CMakeFiles/Output.dir/flags.make
 CMakeFiles/Output.dir/src/Main.cpp.o: src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Output.dir/src/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Output.dir/src/Main.cpp.o"
 	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/Main.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Main.cpp
 
 CMakeFiles/Output.dir/src/Main.cpp.i: cmake_force
@@ -109,23 +70,77 @@ CMakeFiles/Output.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/Main.cpp.s"
 	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Main.cpp -o CMakeFiles/Output.dir/src/Main.cpp.s
 
+CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o: CMakeFiles/Output.dir/flags.make
+CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o: src/FileSystem/CFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o"
+	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFile.cpp
+
+CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.i"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFile.cpp > CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.i
+
+CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.s"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFile.cpp -o CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.s
+
+CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o: CMakeFiles/Output.dir/flags.make
+CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o: src/FileSystem/CFolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o"
+	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFolder.cpp
+
+CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.i"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFolder.cpp > CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.i
+
+CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.s"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFolder.cpp -o CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.s
+
+CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o: CMakeFiles/Output.dir/flags.make
+CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o: src/FileSystem/CItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o"
+	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.cpp
+
+CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.i"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.cpp > CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.i
+
+CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.s"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.cpp -o CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.s
+
+CMakeFiles/Output.dir/src/Logger/Logger.cpp.o: CMakeFiles/Output.dir/flags.make
+CMakeFiles/Output.dir/src/Logger/Logger.cpp.o: src/Logger/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Output.dir/src/Logger/Logger.cpp.o"
+	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Output.dir/src/Logger/Logger.cpp.o -c /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.cpp
+
+CMakeFiles/Output.dir/src/Logger/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Output.dir/src/Logger/Logger.cpp.i"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.cpp > CMakeFiles/Output.dir/src/Logger/Logger.cpp.i
+
+CMakeFiles/Output.dir/src/Logger/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Output.dir/src/Logger/Logger.cpp.s"
+	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.cpp -o CMakeFiles/Output.dir/src/Logger/Logger.cpp.s
+
 # Object files for target Output
 Output_OBJECTS = \
-"CMakeFiles/Output.dir/src/CFile.cpp.o" \
-"CMakeFiles/Output.dir/src/CFolder.cpp.o" \
-"CMakeFiles/Output.dir/src/CItem.cpp.o" \
-"CMakeFiles/Output.dir/src/Main.cpp.o"
+"CMakeFiles/Output.dir/src/Main.cpp.o" \
+"CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o" \
+"CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o" \
+"CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o" \
+"CMakeFiles/Output.dir/src/Logger/Logger.cpp.o"
 
 # External object files for target Output
 Output_EXTERNAL_OBJECTS =
 
-Output: CMakeFiles/Output.dir/src/CFile.cpp.o
-Output: CMakeFiles/Output.dir/src/CFolder.cpp.o
-Output: CMakeFiles/Output.dir/src/CItem.cpp.o
 Output: CMakeFiles/Output.dir/src/Main.cpp.o
+Output: CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o
+Output: CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o
+Output: CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o
+Output: CMakeFiles/Output.dir/src/Logger/Logger.cpp.o
 Output: CMakeFiles/Output.dir/build.make
 Output: CMakeFiles/Output.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Output"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Output"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Output.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

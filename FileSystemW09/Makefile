@@ -123,86 +123,113 @@ Output/fast:
 	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/build
 .PHONY : Output/fast
 
-src/CFile.o: src/CFile.cpp.o
+src/FileSystem/CFile.o: src/FileSystem/CFile.cpp.o
 
-.PHONY : src/CFile.o
-
-# target to build an object file
-src/CFile.cpp.o:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CFile.cpp.o
-.PHONY : src/CFile.cpp.o
-
-src/CFile.i: src/CFile.cpp.i
-
-.PHONY : src/CFile.i
-
-# target to preprocess a source file
-src/CFile.cpp.i:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CFile.cpp.i
-.PHONY : src/CFile.cpp.i
-
-src/CFile.s: src/CFile.cpp.s
-
-.PHONY : src/CFile.s
-
-# target to generate assembly for a file
-src/CFile.cpp.s:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CFile.cpp.s
-.PHONY : src/CFile.cpp.s
-
-src/CFolder.o: src/CFolder.cpp.o
-
-.PHONY : src/CFolder.o
+.PHONY : src/FileSystem/CFile.o
 
 # target to build an object file
-src/CFolder.cpp.o:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CFolder.cpp.o
-.PHONY : src/CFolder.cpp.o
+src/FileSystem/CFile.cpp.o:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o
+.PHONY : src/FileSystem/CFile.cpp.o
 
-src/CFolder.i: src/CFolder.cpp.i
+src/FileSystem/CFile.i: src/FileSystem/CFile.cpp.i
 
-.PHONY : src/CFolder.i
+.PHONY : src/FileSystem/CFile.i
 
 # target to preprocess a source file
-src/CFolder.cpp.i:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CFolder.cpp.i
-.PHONY : src/CFolder.cpp.i
+src/FileSystem/CFile.cpp.i:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.i
+.PHONY : src/FileSystem/CFile.cpp.i
 
-src/CFolder.s: src/CFolder.cpp.s
+src/FileSystem/CFile.s: src/FileSystem/CFile.cpp.s
 
-.PHONY : src/CFolder.s
+.PHONY : src/FileSystem/CFile.s
 
 # target to generate assembly for a file
-src/CFolder.cpp.s:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CFolder.cpp.s
-.PHONY : src/CFolder.cpp.s
+src/FileSystem/CFile.cpp.s:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.s
+.PHONY : src/FileSystem/CFile.cpp.s
 
-src/CItem.o: src/CItem.cpp.o
+src/FileSystem/CFolder.o: src/FileSystem/CFolder.cpp.o
 
-.PHONY : src/CItem.o
+.PHONY : src/FileSystem/CFolder.o
 
 # target to build an object file
-src/CItem.cpp.o:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CItem.cpp.o
-.PHONY : src/CItem.cpp.o
+src/FileSystem/CFolder.cpp.o:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o
+.PHONY : src/FileSystem/CFolder.cpp.o
 
-src/CItem.i: src/CItem.cpp.i
+src/FileSystem/CFolder.i: src/FileSystem/CFolder.cpp.i
 
-.PHONY : src/CItem.i
+.PHONY : src/FileSystem/CFolder.i
 
 # target to preprocess a source file
-src/CItem.cpp.i:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CItem.cpp.i
-.PHONY : src/CItem.cpp.i
+src/FileSystem/CFolder.cpp.i:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.i
+.PHONY : src/FileSystem/CFolder.cpp.i
 
-src/CItem.s: src/CItem.cpp.s
+src/FileSystem/CFolder.s: src/FileSystem/CFolder.cpp.s
 
-.PHONY : src/CItem.s
+.PHONY : src/FileSystem/CFolder.s
 
 # target to generate assembly for a file
-src/CItem.cpp.s:
-	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/CItem.cpp.s
-.PHONY : src/CItem.cpp.s
+src/FileSystem/CFolder.cpp.s:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.s
+.PHONY : src/FileSystem/CFolder.cpp.s
+
+src/FileSystem/CItem.o: src/FileSystem/CItem.cpp.o
+
+.PHONY : src/FileSystem/CItem.o
+
+# target to build an object file
+src/FileSystem/CItem.cpp.o:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o
+.PHONY : src/FileSystem/CItem.cpp.o
+
+src/FileSystem/CItem.i: src/FileSystem/CItem.cpp.i
+
+.PHONY : src/FileSystem/CItem.i
+
+# target to preprocess a source file
+src/FileSystem/CItem.cpp.i:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.i
+.PHONY : src/FileSystem/CItem.cpp.i
+
+src/FileSystem/CItem.s: src/FileSystem/CItem.cpp.s
+
+.PHONY : src/FileSystem/CItem.s
+
+# target to generate assembly for a file
+src/FileSystem/CItem.cpp.s:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.s
+.PHONY : src/FileSystem/CItem.cpp.s
+
+src/Logger/Logger.o: src/Logger/Logger.cpp.o
+
+.PHONY : src/Logger/Logger.o
+
+# target to build an object file
+src/Logger/Logger.cpp.o:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/Logger/Logger.cpp.o
+.PHONY : src/Logger/Logger.cpp.o
+
+src/Logger/Logger.i: src/Logger/Logger.cpp.i
+
+.PHONY : src/Logger/Logger.i
+
+# target to preprocess a source file
+src/Logger/Logger.cpp.i:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/Logger/Logger.cpp.i
+.PHONY : src/Logger/Logger.cpp.i
+
+src/Logger/Logger.s: src/Logger/Logger.cpp.s
+
+.PHONY : src/Logger/Logger.s
+
+# target to generate assembly for a file
+src/Logger/Logger.cpp.s:
+	$(MAKE) -f CMakeFiles/Output.dir/build.make CMakeFiles/Output.dir/src/Logger/Logger.cpp.s
+.PHONY : src/Logger/Logger.cpp.s
 
 src/Main.o: src/Main.cpp.o
 
@@ -240,15 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Output"
-	@echo "... src/CFile.o"
-	@echo "... src/CFile.i"
-	@echo "... src/CFile.s"
-	@echo "... src/CFolder.o"
-	@echo "... src/CFolder.i"
-	@echo "... src/CFolder.s"
-	@echo "... src/CItem.o"
-	@echo "... src/CItem.i"
-	@echo "... src/CItem.s"
+	@echo "... src/FileSystem/CFile.o"
+	@echo "... src/FileSystem/CFile.i"
+	@echo "... src/FileSystem/CFile.s"
+	@echo "... src/FileSystem/CFolder.o"
+	@echo "... src/FileSystem/CFolder.i"
+	@echo "... src/FileSystem/CFolder.s"
+	@echo "... src/FileSystem/CItem.o"
+	@echo "... src/FileSystem/CItem.i"
+	@echo "... src/FileSystem/CItem.s"
+	@echo "... src/Logger/Logger.o"
+	@echo "... src/Logger/Logger.i"
+	@echo "... src/Logger/Logger.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"

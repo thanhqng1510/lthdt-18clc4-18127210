@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFile.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/CFile.cpp.o"
-  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CFolder.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/CFolder.cpp.o"
-  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/CItem.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/CItem.cpp.o"
+  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFile.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/FileSystem/CFile.cpp.o"
+  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFolder.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/FileSystem/CFolder.cpp.o"
+  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/FileSystem/CItem.cpp.o"
+  "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/Logger/Logger.cpp.o"
   "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Main.cpp" "/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/CMakeFiles/Output.dir/src/Main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
