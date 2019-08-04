@@ -6,35 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFile.hpp
-CItem.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.hpp
-
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFolder.hpp
-vector
--
-string
--
-CItem.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.hpp
-
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CItem.hpp
-string
--
-
 /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.cpp
+iostream
+-
 Logger.hpp
 /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.hpp
 
 /Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.hpp
-
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Main.cpp
-iostream
+string
 -
-FileSystem/CFolder.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFolder.hpp
-FileSystem/CFile.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/FileSystem/CFile.hpp
-Logger/Logger.hpp
-/Users/thanhqng/Desktop/GITHUB/lthdt-18clc4-18127210/FileSystemW09/src/Logger/Logger.hpp
 
