@@ -23,6 +23,9 @@ public:
 private:
     Logger() = default;
 
+private:
+    std::string GetTime();
+
 public:
     Logger(const Logger& logger) = delete;
     Logger(const Logger&& logger) = delete;
